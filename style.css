@@ -1,0 +1,736 @@
+body {
+    background-color: #131313;
+}
+
+/*HEADER*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+    margin-left: 6%;
+    color: #FFFFFF;
+
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 70px;
+    margin-top: 3%;
+
+}
+
+header nav a {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+header .header-block {
+    right: 4%;
+    position: relative;
+}
+
+header .header-block a {
+    padding: 20px;
+}
+
+header .header-block img {
+    top: 10%;
+    position: relative;
+}
+
+#post-photo {
+    top: 20%;
+}
+
+header .header-block button {
+    width: 179px;
+    height: 60px;
+    border: 1px solid #5BA300;
+    border-radius: 24px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    color: #5BA300;
+    background-color: #131313;
+
+}
+
+/*SECTION1*/
+
+/*LEFT CONTENT*/
+
+#first-section {
+    display: flex;
+}
+
+#first-section .left-content {
+    margin-left: 10%;
+}
+
+#first-section .left-content h1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 63px;
+    color: #FFFFFF;
+}
+
+#first-section .left-content span {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+#first-section .left-content .left-content-item {
+    display: flex;
+    margin-top: 10%;
+}
+
+#first-section .left-content footer {
+    margin-top: 13%;
+}
+
+#first-section .left-content a {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 148.99%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/*RIGHT-CONTENT*/
+
+#first-section .right-content {
+    display: flex;
+}
+
+#first-section .right-content .main-wrapper {
+    border: 2px solid #5BA300;
+    padding: 5%;
+    margin: 10% 5% 5% 15%;
+}
+
+.nft-card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nft-card-header h2 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 148.99%;
+    color: #FFFFFF;
+}
+
+.nft-card-header span {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 148.99%;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+#first-section .right-content .main-nft-card footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#first-section .right-content .main-nft-card footer .timer p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFF;
+
+}
+
+#first-section .right-content .main-nft-card footer .timer span {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 148.99%;
+    color: rgba(255, 255, 255, 0.6)
+}
+
+#first-section .right-content .main-nft-card footer .main-nft-price p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+#first-section .right-content .main-nft-card footer .main-nft-price span {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 148.99%;
+    color: rgba(255, 255, 255, 0.6)
+}
+
+#first-section .right-content .main-info {
+    margin: 80% 0 0 0%;
+}
+
+#first-section .right-content .main-info p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+    /*text-align: right;*/
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 25%;
+}
+
+#first-section .right-content .main-info span {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 148.99%;
+    /*text-align: right;*/
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/*HOVER*/
+header .header-block button:hover {
+    background-color: #5BA300;
+    color: #FFFFFF;
+    transition: 3s;
+}
+
+header nav a:hover {
+    color: #5BA300;
+    transition: 2s;
+}
+
+
+/*SECTION2*/
+#second-section {
+    margin: 0 3% 10%;
+}
+
+#second-section h2 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 148.99%;
+    color: #FFFFFF;
+    margin-left: 3%;
+    margin-bottom: 0;
+}
+
+#second-section .second-section-header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+}
+
+#second-section .second-section-header h1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 148.99%;
+    color: #FFFFFF;
+}
+
+#second-section .second-section-header p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 148.99%;
+    color: #FFFFFF;
+}
+
+.second-section-wrapper {
+    display: flex;
+}
+
+.second-section-wrapper .second-section-card {
+    margin: 2%;
+    padding: 2%;
+    background: #1D1D1D;
+    border-radius: 6px;
+}
+
+.second-section-wrapper .second-section-card .card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-section-wrapper .second-section-card .card-header .card-header-item {
+    display: flex;
+    padding: 3%;
+}
+
+.second-section-wrapper .second-section-card .card-header .card-header-item img {
+    height: 69%;
+}
+
+.second-section-wrapper .second-section-card .card-header p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.6127px;
+    line-height: 148.99%;
+    /* identical to box height, or 25px */
+    color: #FFFFFF;
+    margin-left: 30px;
+}
+.second-section-wrapper .second-section-card .card-header .heart {
+    height: 10%;
+    margin-top: 9%;
+}
+
+.second-section-wrapper .second-section-card p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 148.99%;
+    color: #FFFFFF;
+}
+
+.second-section-wrapper .second-section-card span {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 148.99%;
+    /* or 19px */
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.second-section-wrapper .second-section-card footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.second-section-wrapper .second-section-card footer img {
+    height: 10%;
+    margin-top: 10%;
+}
+
+.second-section-wrapper .second-section-card footer .footer-price p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 148.99%;
+    /* or 19px */
+    color: rgba(255, 255, 255, 0.6);
+    margin: 45% 0 0 0;
+}
+
+.second-section-wrapper .second-section-card footer .footer-price span {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 148.99%;
+    color: #FFFFFF;
+}
+
+.second-section-wrapper .second-section-card footer button {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 148.99%;
+    color: #FFFFFF;
+    background: #5BA300;
+    border-radius: 1px;
+    width: 178px;
+    height: 51px;
+    margin-top: 10%;
+
+}
+
+
+/*EDITORS PICK*/
+#editors-Pick header {
+    background-color: #242424;
+    height: 60vh;
+}
+
+#editors-Pick .editors-pick-item {
+    position: relative;
+    top: -37vh;
+    left: 5vh;
+}
+
+#editors-Pick header .header-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#editors-Pick header .header-item h1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 148.99%;
+    color: #FFFFFF;
+    margin-top: 7%;
+}
+
+#editors-Pick header .header-item p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 148.99%;
+    color: #FFFFFF;
+    margin-top: 8%;
+    margin-right: 3%;
+}
+
+
+/*TOP CREATORS*/
+
+#top-creators h1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 148.99%;
+    /* identical to box height, or 54px */
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#top-creators .top-creators-column {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4%;
+}
+
+#top-creators .top-creators-column .people-card {
+    display: flex;
+    background: #1D1D1D;
+    border-radius: 30px;
+    margin: 1%;
+    width: 30%;
+}
+
+#top-creators .top-creators-column .people-card img {
+    /*!*height: 61%;*!*/
+    /*margin-top: 7%;*/
+    /*margin-left: 3%;*/
+    margin: 3%;
+}
+
+#top-creators .top-creators-column .people-card .people-info {
+    margin-left: 4%;
+}
+
+#top-creators .top-creators-column .people-card .people-info h3 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 148.99%;
+    /* identical to box height, or 30px */
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+#top-creators .top-creators-column .people-card .people-info p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 148.99%;
+    /* identical to box height, or 24px */
+    color: #5BA300;
+    margin: 3% 0 0 0;
+    width: 125%;
+}
+
+.eth-img {
+    height: 10%;
+    width: 10%;
+}
+
+#top-creators .top-creators-column .people-card button {
+    background: #5BA300;
+    border-radius: 17.7313px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.0373px;
+    line-height: 16px;
+    color: #FFFFFF;
+    height: 30%;
+    width: 25%;
+    margin-top: 3%;
+    margin-left: 7%;
+}
+
+.price-item {
+    display: flex;
+    width: 125%;
+}
+
+#top-creators #Ranking {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    color: #5BA300;
+    border: 1px solid #5BA300;
+    border-radius: 24px;
+    background-color: #1D1D1D;
+    width: 15%;
+    height: 9vh;
+    margin-left: 45%;
+    margin-top: 5%;
+}
+
+#top-creators #Ranking:hover {
+    background-color: #5BA300;
+    color: #FFFFFF;
+    transition: 3s;
+}
+
+/* Join Community */
+
+#Join-Community {
+    max-width: 90%;
+    margin: auto;
+    margin-top: 15%;
+}
+
+.header-img {
+    max-width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.join-comm-wrapper p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 41px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#comm {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+    color: #5BA300;
+    text-align: center;
+}
+
+.main-info-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-info-block div {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 130.99%;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 2%;
+}
+
+.join-comm-wrapper button {
+    background: #333333;
+    border-radius: 1px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.0373px;
+    line-height: 16px;
+    border: none;
+    color: #5BA300;
+    width: 12%;
+    height: 40px;
+    margin-left: 45%;
+}
+.join-comm-wrapper button:hover{
+    background: #5BA300;
+    color: #FFFFFF;
+    transition: 2s;
+}
+
+.footer-img {
+    max-width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+/* FOOTER */
+
+#footer {
+    background-color: #333333;
+    margin-top: 10%;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-main aside {
+    text-align: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+    color: #FFFFFF;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.footer-main-block h1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+.string {
+    display: flex;
+    justify-content: space-between;
+}
+
+.string p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+#terms {
+    padding-left: 10%;
+}
+
+.footer-form h1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+.footer-form p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 130.99%;
+    color: #FFFFFF;
+    padding-right: 3%;
+}
+
+#mail-inp {
+    background: #131313;
+    border: none;
+    width: 60%;
+    height: 50px;
+    padding-left: 3%;
+    color: #FFFFFF;
+}
+
+#btn-inp {
+    background: #5BA300;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    border: none;
+    width: 30%;
+    height: 48px;
+}
+
+.last-block {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+}
+
+.last-block p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 148.99%;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.6);
+    padding-left: 5%;
+    padding: 2%;
+    padding-bottom: 0%;
+    
+}
+.last-block p a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.social-media{
+    padding: 2%;
+}
+.last-block p a:hover{
+    color: red;
+    transition: 2s;
+}
