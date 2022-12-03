@@ -73,6 +73,119 @@ header .header-block button {
 
 }
 
+/* modal-wallet */
+
+.modal-wallet-wrapper{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.modal-wallet-content{
+    max-width: 50%;
+    margin: auto;
+    background-color: #FFFFFF;
+    margin-top: 15%;
+    height: 30%;
+    border-radius: 10px;
+}
+.modal-wallet-content p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 0;
+    font-weight: 800;
+}
+.modal-wallet-content button{
+    background-color:#131313;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #333333;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+#wallet-form{
+    max-width: 30%;
+    margin: auto;
+}
+#walletAdress{
+    background-color: #131313;
+    color: #FFFFFF;
+    height: 30px;
+    width: 100%;
+    border-radius: 10px;
+}
+#connectInp{
+    width: 50%;
+    border: none;
+    font-family: 'Arial';
+    font-style: normal;
+    font-size: 19px;
+    line-height: 22px;
+    color:#FFFFFF ;
+    background-color:#131313 ;
+    margin-top: 5%;
+    margin-left: 25%;
+    border-radius: 10px;
+}
+
+/* place a bid modal */
+.place-a-bid-wrapper{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.place-a-bid-content{
+    max-width: 50%;
+    margin: auto;
+    background-color: #FFFFFF;
+    margin-top: 15%;
+    height: 30%;
+    border-radius: 10px;
+}
+.place-a-bid-content p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 0;
+    font-weight: 800;
+}
+.place-a-bid-content #closeBidBtn{
+    background-color:#131313;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #333333;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+#bid-form{
+    max-width: 30%;
+    margin: auto;
+}
+#bid-price{
+    background-color: #131313;
+    color: #FFFFFF;
+    height: 30px;
+    width: 100%;
+    border-radius: 10px;
+}
+#submitPrice{
+    width: 50%;
+    border: none;
+    font-family: 'Arial';
+    font-style: normal;
+    font-size: 19px;
+    line-height: 22px;
+    color:#FFFFFF ;
+    background-color:#131313 ;
+    margin-top: 5%;
+    margin-left: 25%;
+    border-radius: 10px;
+}
+
 /*SECTION1*/
 
 /*LEFT CONTENT*/
@@ -318,6 +431,12 @@ header nav a:hover {
     height: 10%;
     margin-top: 9%;
 }
+.likedBtn{
+    background-color: red;
+    border-radius: 50px;
+    width: 10%;
+
+}
 
 .second-section-wrapper .second-section-card p {
     font-family: 'Arial';
@@ -394,7 +513,6 @@ header nav a:hover {
 #editors-Pick .editors-pick-item {
     position: relative;
     top: -37vh;
-    left: 5vh;
 }
 
 #editors-Pick header .header-item {
@@ -511,7 +629,7 @@ header nav a:hover {
     width: 125%;
 }
 
-#top-creators #Ranking {
+#top-creators .Ranking {
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
@@ -527,7 +645,7 @@ header nav a:hover {
     margin-top: 5%;
 }
 
-#top-creators #Ranking:hover {
+#top-creators .Ranking:hover {
     background-color: #5BA300;
     color: #FFFFFF;
     transition: 3s;
@@ -587,21 +705,26 @@ header nav a:hover {
 .join-comm-wrapper button {
     background: #333333;
     border-radius: 1px;
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14.0373px;
-    line-height: 16px;
     border: none;
-    color: #5BA300;
     width: 12%;
     height: 40px;
     margin-left: 45%;
 }
+.join-comm-wrapper button a{
+     font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.0373px;
+    line-height: 16px;
+    color: #5BA300;
+    text-decoration: none;
+}
 .join-comm-wrapper button:hover{
     background: #5BA300;
-    color: #FFFFFF;
     transition: 2s;
+}
+.join-comm-wrapper button a:hover{
+    color: #FFFFFF;
 }
 
 .footer-img {

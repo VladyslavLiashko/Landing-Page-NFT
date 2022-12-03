@@ -8,16 +8,39 @@
 </head>
 
 <body>
+    <!-- modal-windows -->
+    <div class="modal-wallet-wrapper">
+        <div class="modal-wallet-content">
+            <button id="closeBtn">X</button>
+            <p>Connect your wallet</p>
+            <form action="post" id="wallet-form">
+                <input type="text" name="walletAdress" id="walletAdress" placeholder="Enter your wallet adress"> <br>
+                <input type="submit" value="Connect" id="connectInp">
+            </form>
+        </div>
+    </div>
+    <div class="place-a-bid-wrapper">
+        <div class="place-a-bid-content">
+            <button id="closeBidBtn">X</button>
+            <p>Select your bid</p>
+            <form action="post" id="bid-form">
+                <input type="number" name="bid-price" id="bid-price" placeholder="select your bid"> <br>
+                <input type="button" value="submit" id="submitPrice">
+            </form>
+        </div>
+    </div>
+
+    <!-- main page -->
     <header>
         <h1>Omise</h1>
         <nav>
-            <a href="#">Discover</a>
-            <a href="#">Marketplace</a>
-            <a href="#">How it work</a>
+            <a href="#second-section">Discover</a>
+            <a href="#editors-Pick">Marketplace</a>
+            <a href="#footer">How it work</a>
         </nav>
         <div class="header-block">
             <a href="#"><img src="img/loop.png" alt="" srcset=""></a>
-            <button>Connect wallet</button>
+            <button id="connect-button">Connect wallet</button>
             <a href="#"><img src="img/post.png" alt="" srcset="" id="post-photo"></a>
         </div>
     </header>
@@ -44,7 +67,7 @@
                     <img src="img/Frame%206.png" alt="" srcset="">
                     <footer>
                         <div class="timer">
-                            <p>23h : 41m : 11s </p>
+                            <p>23h : 41m : <time>60</time></p>
                             <span>Remaining time</span>
                         </div>
                         <div class="main-nft-price">
@@ -310,7 +333,7 @@
                 <button>+ Follow</button>
             </div>
         </div>
-        <button id="Ranking">View Ranking</button>
+        <button class="Ranking">View Ranking</button>
     </section>
 
     <section id="Join-Community">
@@ -326,7 +349,7 @@
                 <div>Meet the Omise community,artists and collectors for platform update,announcements and more...</div>
                 <img src="img/Alan.png" alt="" srcset="">
             </div>
-            <button>Launch Discord</button>
+            <button> <a href="https://discord.com/invite/binance">Launch Discord</a> </button>
             <div class="footer-img">
                 <img src="img/Alacandra.png" alt="" srcset="">
                 <img src="img/Alacandra.png" alt="" srcset="">
@@ -371,6 +394,7 @@
             </div>
         </div>
     </section>
+    <script src="main.js"></script>
 </body>
 
 </html>
